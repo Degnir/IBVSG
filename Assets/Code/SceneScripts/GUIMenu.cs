@@ -13,17 +13,18 @@ public class GUIMenu : MonoBehaviour
 		GUI.skin = myskin;
 		if(Game.GameState == GameState.Start)
 		{
-			GUI.Box(new Rect(60,60,750,250), title);
-			
-			GUI.Label(new Rect(330,200,300,200), "PRESS SPACE TO START");
-			GUI.Label(new Rect(340,220,300,200), "GO KICK SOME CUBES");
+			GUI.Box(new Rect(Screen.width/3,Screen.height/4,750,250), title);
+
+			GUI.Label(new Rect(Screen.width/3 + 240,Screen.height/4 + 140,300,200), "PRESS SPACE TO START");
+			GUI.Label(new Rect(Screen.width/3 + 255,Screen.height/4 + 160,300,200), "GO KICK SOME CUBES");
 		}
 		else if(Game.GameState == GameState.End)
 		{
-			GUI.Box(new Rect(60,60,750,250),"");
-			GUI.Label(new Rect(345,100,300,200), "NOT GOOD ENOUGH");
-			GUI.Label(new Rect(310,120,300,200), "GO KICK SOME MORE CUBES");
-			GUI.Label(new Rect(312,180,300,200), "PRESS SPACE TO RESTART");
+			GUI.Box(new Rect(Screen.width/3,Screen.height/4,750,250), "");
+			
+			GUI.Label(new Rect(Screen.width/3 + 280,Screen.height/4 + 60,300,200), "NOT GOOD ENOUGH");
+			GUI.Label(new Rect(Screen.width/3 + 240,Screen.height/4 + 80,300,200), "GO KICK SOME MORE CUBES");
+			GUI.Label(new Rect(Screen.width/3 + 242,Screen.height/4 + 120,300,200), "PRESS SPACE TO RESTART");
 		}
 
 	}

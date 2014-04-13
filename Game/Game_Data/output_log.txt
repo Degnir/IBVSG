@@ -1,0 +1,23 @@
+Initialize engine version: 4.3.2f1 (0517a5ae8669)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvumdshim.dll 9.18.13.3489]
+    Renderer: NVIDIA GeForce GTX 660M
+    Vendor:   NVIDIA
+    VRAM:     1990 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Leny\Documents\GitHub\IBVSG\Game\Game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Leny\Documents\GitHub\IBVSG\Game\Game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Leny\Documents\GitHub\IBVSG\Game\Game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Leny\Documents\GitHub\IBVSG\Game\Game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.543 seconds
+desktop: 1920x1080 59Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 45.403172 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 423.
+Total: 1.087014 ms (FindLiveObjects: 0.021808 ms CreateObjectMapping: 0.020525 ms MarkObjects: 0.401964 ms  DeleteObjects: 0.077399 ms)
+

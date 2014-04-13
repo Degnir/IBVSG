@@ -16,7 +16,7 @@ public class Bullet : MonoBehaviour
 
 		if(Target.Type == Type.Player)
 		{
-			_Direction += Vector3.up * 0.6f ;
+			_Direction += Vector3.up * 0.9f ;
 		}
 
 		Destroy(this.gameObject,3);
@@ -26,6 +26,11 @@ public class Bullet : MonoBehaviour
 	void Update () 
 	{
 		transform.position += Time.deltaTime * Speed * _Direction;
+
+		if(Target.Type == Type.Player)
+		{
+			transform.Rotate(1.0f, 0.0f, 1.0f);
+		}
 
 		if(Target.Model != null && (Vector3.Distance(Target.Position, transform.position) < 0.3f || 
 		                            Target.Model.collider.bounds.Contains(this.transform.position)))

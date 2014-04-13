@@ -37,7 +37,19 @@ public abstract class Weapon
 
 	public bool CheckVisibility()
 	{
-		if(Physics.Raycast(Owner.Position, (Owner.ClosestEnemy.Position - Owner.Position).normalized, out _Ray))
+		int layer;
+		
+		if(Owner.Type == Type.Enemy)
+		{
+			layer = 1 << 8;
+		}
+		else
+		{
+			layer = 1 << 9;
+		}
+		
+	//	if(Physics.Raycast(Owner.Position, (Owner.ClosestEnemy.Position - Owner.Position).normalized, out _Ray, layer))
+	    if(Physics.Raycast(Owner.MuzzlePosition(), (Owner.ClosestEnemy.MuzzlePosition() - Owner.MuzzlePosition()).normalized, out _Ray, layer))
 		{
 			if(Owner.Type == Type.Player)
 			{

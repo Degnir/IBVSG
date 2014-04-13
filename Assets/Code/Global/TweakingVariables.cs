@@ -28,19 +28,19 @@ namespace IBVSG
 		
 		public static class StoneProps
 		{
-			public static float Speed = 0.6f;
+			public static float Speed = 0.8f;
 			public static float Damage = 20.0f;
-			public static float Cooldown = 0.7f;
+			public static float Cooldown = 1.8f;
 		}
 
 		public static class PlayerProps
 		{
-			public static float Speed = 0.013f;
+			public static float Speed = 0.016f;
 		}
 
 		public static class SpotProps
 		{
-			public static float SpawTime = 5.0f;
+			public static float SpawTime = 10.0f;
 		}
 
 		public static class PlayerStats
@@ -54,16 +54,16 @@ namespace IBVSG
 
 		public static void RestartStatic()
 		{
-			PlayerProps.Speed = 0.013f;
+			PlayerProps.Speed = 0.016f;
 			PlayerStats.StartYPos = 0;
 			PlayerStats.Points = 0;
 			PlayerStats.High = 0;
 			PlayerStats.PointsFromKills = 0;
 
-			StoneProps.Speed = 0.6f;
+			StoneProps.Speed = 0.8f;
 			StoneProps.Damage = 20.0f;
-			StoneProps.Cooldown = 0.7f;
-			SpotProps.SpawTime = 5.0f;
+			StoneProps.Cooldown = 1.8f;
+			SpotProps.SpawTime = 10.0f;
 		}
 
 		public static void StatsUp()

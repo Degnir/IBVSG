@@ -21,8 +21,14 @@ public class Spot : MonoBehaviour
 			{
 				if(Holder == null)
 				{
+					
 					GameObject EnemyPref = GameObject.Instantiate(Game.EnemyPrefab) as GameObject;
 					EnemyPref.transform.position = transform.position;
+
+					if(EnemyPref.transform.position.x - Game.PlayerScript.Position.x > 0)
+					{
+						EnemyPref.transform.Rotate(Vector3.up, 180.0f);
+					}
 
 					Weapon stone = new Stone();
 					Holder = new Enemy(Type.Enemy, 100.0f, stone, EnemyPref);
