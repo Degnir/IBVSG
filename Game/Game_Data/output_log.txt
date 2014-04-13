@@ -11,13 +11,13 @@ Platform assembly: C:\Users\Leny\Documents\GitHub\IBVSG\Game\Game_Data\Managed\U
 Loading C:\Users\Leny\Documents\GitHub\IBVSG\Game\Game_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\Leny\Documents\GitHub\IBVSG\Game\Game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\Leny\Documents\GitHub\IBVSG\Game\Game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.543 seconds
+- Completed reload, in  0.247 seconds
 desktop: 1920x1080 59Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-UnloadTime: 45.403172 ms
+UnloadTime: 47.388153 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 423.
-Total: 1.087014 ms (FindLiveObjects: 0.021808 ms CreateObjectMapping: 0.020525 ms MarkObjects: 0.401964 ms  DeleteObjects: 0.077399 ms)
+Total: 0.659398 ms (FindLiveObjects: 0.014111 ms CreateObjectMapping: 0.020526 ms MarkObjects: 0.192858 ms  DeleteObjects: 0.034210 ms)
 

@@ -32,17 +32,6 @@ public class InputController : MonoBehaviour {
 						Game.GameState = GameState.Play;
 						break;
 				}
-
-				/*if(Game.GameState == GameState.Play)
-				{
-				 	Game.PlayerScript.GoUp();
-				 	Game.PlayerScript.MoveDirection(true);
-				}
-				else
-				{
-					Game.Inst.StartGame();
-					Game.GameState = GameState.Play;
-				}*/
 			}
 			else if (Game.GameState == GameState.Play)
 			{

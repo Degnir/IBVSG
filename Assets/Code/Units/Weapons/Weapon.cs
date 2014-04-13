@@ -4,7 +4,6 @@ using IBVSG;
 
 public abstract class Weapon 
 {
-	public GameObject Model; //if any?
 	public float Damage;
 	public Unit Owner;
 	public float Cooldown;
@@ -47,8 +46,7 @@ public abstract class Weapon
 		{
 			layer = 1 << 9;
 		}
-		
-	//	if(Physics.Raycast(Owner.Position, (Owner.ClosestEnemy.Position - Owner.Position).normalized, out _Ray, layer))
+
 	    if(Physics.Raycast(Owner.MuzzlePosition(), (Owner.ClosestEnemy.MuzzlePosition() - Owner.MuzzlePosition()).normalized, out _Ray, layer))
 		{
 			if(Owner.Type == Type.Player)

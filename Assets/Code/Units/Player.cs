@@ -40,7 +40,6 @@ namespace IBVSG
 			}
 			MoveDirection(false);
 			CyclopBeam.particleSystem.Stop();
-			//CyclopBeam.particleSystem.enableEmission = false;
 		}
 
 		public override void Update ()

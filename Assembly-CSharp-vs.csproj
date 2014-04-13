@@ -60,7 +60,6 @@
      <Compile Include="Assets\Code\Units\Enemy.cs" />
      <Compile Include="Assets\Code\Units\Player.cs" />
      <Compile Include="Assets\Code\Units\Unit.cs" />
-     <Compile Include="Assets\Code\Units\Waypoints\WaypointManager.cs" />
      <Compile Include="Assets\Code\Units\Weapons\Beam.cs" />
      <Compile Include="Assets\Code\Units\Weapons\Bullet.cs" />
      <Compile Include="Assets\Code\Units\Weapons\Stone.cs" />

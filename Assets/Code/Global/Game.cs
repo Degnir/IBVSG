@@ -17,10 +17,8 @@ namespace IBVSG
 
 		public GameObject Player;
 		public static Player PlayerScript;
-		public List<GameObject> Waypoints;
 		public static List<PowerUp> PowerUps;
 		public static List<Enemy> Enemies;
-		public static WaypointManager WaypointManager;
 
 		public static Game Inst;
 
@@ -30,12 +28,6 @@ namespace IBVSG
 		void Start () 
 		{
 			Inst = this;
-			//Waypoints = new List<GameObject>();
-			//WaypointManager = new WaypointManager(Waypoints);
-			//Enemies = new List<Enemy>();
-			//PowerUps = new List<PowerUp>();
-			//Weapon beam = new Beam();
-			//PlayerScript = new Player(Type.Player, 100.0f, beam, Player);
 
 			BeamPrefab =  Resources.Load("Prefabs/BeamPrefab");
 			StonePrefab = Resources.Load("Prefabs/StonePrefab");
