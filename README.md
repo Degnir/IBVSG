@@ -9,13 +9,18 @@ To play you need to download Game.exe and Game_Data folder.
 
 Short description:
 
-  Press space to go up, release it to fall down.
-  There are 4 types of cubes:
-    Gray  - normal
-    Red   - contains powerup - Better weapon for few seconds
-    Green - contains powerup - Health bost
-    Blue  - contains powerup - Speed bost for few seconds
+Press space to go up, release it to fall down.
+
+There are 4 types of cubes:
+
+Gray  - normal
+
+Red   - contains powerup - Better weapon for few seconds
+
+Green - contains powerup - Health bost
+
+Blue  - contains powerup - Speed bost for few seconds
   
-  Game gets harder with time (height).
+Game gets harder with time (height).
   
-  Avoid enemy missiles and try to get as high as you can :)
+Avoid enemy missiles and try to get as high as you can :)
